@@ -1,0 +1,28 @@
+.widget-reacttour-clickable {
+    cursor: pointer;
+}
+
+.widget-reacttour {
+    display: inline-block;
+}
+
+.widget-reacttour.badge:empty {
+    display: initial;
+    /* Fix padding to stay round */
+    padding: 3px 10px;
+}
+
+.widget-reacttour.label:empty {
+    display: initial;
+    /* Fix padding to stay square */
+    padding: .2em .8em .3em;
+}
+
+.widget-reacttour.badge {
+    min-width: 18px;
+    min-height: 18px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy91aS9SZWFjdHRvdXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHFCQUFxQjtBQUN6Qjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQiw4QkFBOEI7SUFDOUIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLCtCQUErQjtJQUMvQix1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6IlJlYWN0dG91ci5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIud2lkZ2V0LXJlYWN0dG91ci1jbGlja2FibGUge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLndpZGdldC1yZWFjdHRvdXIge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cblxuLndpZGdldC1yZWFjdHRvdXIuYmFkZ2U6ZW1wdHkge1xuICAgIGRpc3BsYXk6IGluaXRpYWw7XG4gICAgLyogRml4IHBhZGRpbmcgdG8gc3RheSByb3VuZCAqL1xuICAgIHBhZGRpbmc6IDNweCAxMHB4O1xufVxuXG4ud2lkZ2V0LXJlYWN0dG91ci5sYWJlbDplbXB0eSB7XG4gICAgZGlzcGxheTogaW5pdGlhbDtcbiAgICAvKiBGaXggcGFkZGluZyB0byBzdGF5IHNxdWFyZSAqL1xuICAgIHBhZGRpbmc6IC4yZW0gLjhlbSAuM2VtO1xufVxuXG4ud2lkZ2V0LXJlYWN0dG91ci5iYWRnZSB7XG4gICAgbWluLXdpZHRoOiAxOHB4O1xuICAgIG1pbi1oZWlnaHQ6IDE4cHg7XG59XG4iXX0=*/
+
+.navbar-brand .widget-language-selector .current-language-text,.navbar-brand .widget-language-selector .language-arrow{color:#fff}.navbar-brand .widget-language-selector .current-language-text .arrow-image,.navbar-brand .widget-language-selector .language-arrow .arrow-image{filter:invert(1)}.widget-language-selector .popupmenu-trigger{align-items:center;display:flex}.widget-language-selector .language-arrow{display:inline-flex;transition:transform .2s ease-in-out 50ms}.widget-language-selector .language-arrow .arrow-image{background-image:url(com/mendix/widget/web/languageselector/assets/arrow_black.svg);background-repeat:no-repeat;height:14px!important;margin-top:2px;width:14px}.widget-language-selector .language-arrow .arrow-image.arrow-up{transform:rotate(180deg)}.widget-language-selector .current-language-text{font-size:14px;margin-right:6px}.widget-language-selector .popupmenu-menu{background:#f8f8f8}.widget-language-selector .popupmenu-menu .popupmenu-basic-item.active{font-weight:600}.widget-language-selector .popupmenu-menu .popupmenu-basic-item:hover{background:#fff}
