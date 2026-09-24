@@ -3,14 +3,8 @@ import { ReacttourPreviewProps } from "../typings/ReacttourProps";
 
 export class preview extends Component<ReacttourPreviewProps> {
     render(): ReactNode {
-        return (
-            <div >
-
-            </div>
-        );
+        return <div />;
     }
-
-
 }
 
 export function getPreviewCss(): string {

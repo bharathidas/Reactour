@@ -36,6 +36,7 @@ export interface ReacttourPreviewProps {
     style: string;
     styleObject?: CSSProperties;
     readOnly: boolean;
+    renderMode?: "design" | "xray" | "structure";
     stepsKey: string;
     startTourKey: string;
     accentcolorKey: string;

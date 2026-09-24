@@ -12,14 +12,14 @@
         <propertyGroup caption="General">
             <property key="stepsKey" type="attribute" required="true">
                 <caption>Steps</caption>
-                <description>The attribute that contains the feature tour value</description>
+                <description>JSON array of tour steps, e.g. [{"selector": ".my-class", "content": "Text"}]</description>
                 <attributeTypes>
                     <attributeType name="String"/>                    
                 </attributeTypes>
             </property>
             <property key="startTourKey" type="attribute" required="true">
                 <caption>Start Tour</caption>
-                <description>The attribute that starts the tour</description>
+                <description>Opens the tour when true. It is set back to false when the user closes the tour (if the attribute is editable).</description>
                 <attributeTypes>
                     <attributeType name="Boolean"/>                    
                 </attributeTypes>
@@ -53,7 +53,7 @@
                 </attributeTypes>
             </property>
              <property key="showButtonsKey" type="attribute" required="false">
-                <caption>show Buttons</caption>
+                <caption>Show Buttons</caption>
                 <description>Show/Hide Helper Navigation buttons</description>
                 <attributeTypes>
                     <attributeType name="Boolean"/>       
@@ -75,7 +75,7 @@
             </property>
             <property key="showNavigationNumberKey" type="attribute" required="false">
                 <caption>Show Navigation Number</caption>
-                <description>Show/Hide number when hovers on each Navigation Dot</description>
+                <description>Show/Hide the step number when hovering over each Navigation Dot</description>
                 <attributeTypes>
                     <attributeType name="Boolean"/>
                 </attributeTypes>
@@ -89,7 +89,7 @@
             </property>
             <property key="startAtKey" type="attribute" required="false">
                 <caption>Start At</caption>
-                <description>Starting step when Tour is open the first time</description>
+                <description>Starting step (0-based) when the Tour is opened</description>
                 <attributeTypes>
                     <attributeType name="Integer"/>
                 </attributeTypes>
