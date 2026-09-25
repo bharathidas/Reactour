@@ -32,7 +32,7 @@ React Tour 2.1.0 is the React Tour widget rebuilt and tested for **Mendix Studio
 3. Open **App > Security > User roles** and give your user role the module role of `ReactTourSample`.
 4. Add the page `ReactTourSample.Home_Web` to your navigation, run the app and open the page. The tour starts on Button 1. Use the arrow keys to move and Esc to close.
 
-The sample turns off Show Close Button, Close With Mask, Show Navigation and Show Number, so it shows no close button, dots or number badge.
+The sample sets Show Buttons, Show Close Button, Close With Mask, Show Navigation, Show Navigation Number and Show Number to true (microflow `DS_Helper`), so the tour shows the arrows, close button, dots and number badge, as in 1.0.0. Set any of them to false to hide that part.
 
 ### Source code and build
 
